@@ -1,0 +1,49 @@
+.chats .chats__list {
+  border-top:  1px solid #ebebeb;
+  border-bottom:  1px solid #ebebeb;
+}
+
+.chats__list .chats__chat {
+  padding: 12px; /* chat__list 하위 모든 태그 패딩 */
+}
+
+.chats__list .chats__chat:last-child {
+  border: none;
+}
+
+.chats__chat a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+}
+
+.chat__content {
+  display: flex;
+  align-items: flex-start; /* after i did center */
+}
+
+.chat__content img {
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+
+
+.chat__preview .chat__user {
+  margin-bottom: 3px;
+  font-weight: 600;
+
+}
+
+.chat_last-message {
+  font-size: 12px;
+  color: #b4b4b4;
+}
+
+
+.chats__chat .chat__date-time {
+  font-size: 10px;
+  color: #b4b4b4;
+}
