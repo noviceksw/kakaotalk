@@ -1,0 +1,21 @@
+.find .find__options {
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.find__options .find__option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #523737;
+  padding-left: 30px;
+  padding-right: 5px;
+}
+
+.find__options .find__option-title {
+  margin-top: 15px;
+  font-size: 12px;
+}
