@@ -36,44 +36,51 @@
       </div>
     </div>
   </header>
-  <main class="friends">
-    <div class="search-bar">
-      <i class="fa fa-search"></i>
-      <input type="text" placeholder="Find friends, chats, Plus Friends">
+  <main class="more">
+  <header class="more__header">
+    <div class="more-header__column">
+      <img src="images/avatar.jpg">
+      <div class="more-header__info">
+        <span class="more-header__title">Nicolas</span>
+        <span class="more-header__email">noviceksw@naver.com</span>
+      </div>
     </div>
-    <section class="friends__section">
-      <header class="friends__section-header">
-        <h6 class="friends__section-title">My Profile</h6>
-      </header>
-      <div class="friends__section-rows">
-        <div class="friends__section-row">
-            <img src="images/avatar.jpg" alt="">
-            <a href="profile.html" class="fiends__section-name">
-              Nicolas
-            </a>
-        </div>
-        <div class="friends__section-row">
-          <img src="images/avatar.jpg" alt="">
-          <span class="fiends__section-name">Friends' Names Display</span>
-        </div>
-      </div>
-    </section>
-    <section class="friends__section">
-      <header class="friends__section-header">
-        <h6 class="friends__section-title">Friends</h6>
-      </header>
-      <div class="friends__section-rows">
-        <div class="friends__section-row with-tagline">
-          <div class="friends__section-column">
-              <img src="images/avatar.jpg" alt="">
-              <span class="friends__section-name">Nicolas</span>
-          </div>
-          <span class="friends__section-tagline">
-            Life is short. So live your life.
-          </span>
-        </div>
-      </div>
-    </section>
+    <i class="fa fa-comment-o fa-2x"></i>
+  </header>
+  <section class="more__options">
+    <div class="more__option"> <!-- i , span 나눈 이유 fon-size를 달리 줘야하기 때문 -->
+      <i class="fa fa-smile-o fa-2x"></i>
+      <span class="more__option-title">Emoticons</span>
+    </div>
+    <div class="more__option">
+      <i class="fa fa-paint-brush fa-2x"></i>
+      <span class="more__option-title">Themes</span>
+    </div>
+    <div class="more__option">
+      <i class="fa fa-hand-peace-o fa-2x"></i>
+      <span class="more__option-title">Plus Friend</span>
+    </div>
+    <div class="more__option">
+      <i class="fa fa-user-circle-o fa-2x"></i>
+      <span class="more__option-title">Account</span>
+    </div>
+  </section>
+  <section class="more__plus-friends">
+    <header class="plus__friends">
+      <h6 class="plus__friends-title">
+        Plus Friends
+      </h6>
+    </header>
+    <div class="plus__learn-more">
+      <!-- icon -->
+      <span class="plus__learn-more-text">
+        Learn More
+      </span>
+    </div>
+  </section>
+  <section class="more__links">
+
+  </section>
   </main>
   <nav class="tab-bar">
     <a href="index.html" class="tab-bar__tab">
@@ -93,8 +100,6 @@
       <span class="tab-bar__title">More</span>
     </a>
   </nav>
-  <div class="bigScreenText">
-    <span>Please make your screen smaller</span>
-  </div>
+
 </body>
 </html>
