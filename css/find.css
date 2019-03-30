@@ -19,3 +19,18 @@
   margin-top: 15px;
   font-size: 12px;
 }
+
+.find__recommended header {
+  border-bottom: 1px solid #ebebeb;
+  padding: 5px 10px;
+  font-size: 12px;
+  color: #b4b4b4;
+}
+
+.recommended__none {
+  border-bottom: 1px solid #ebebeb;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #b4b4b4;
+}
