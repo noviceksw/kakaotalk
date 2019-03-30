@@ -49,8 +49,16 @@
 }
 
 .more__plus-friends {
+  padding: 20px;
+}
+
+.more__plus-friend {
   display: flex;
   justify-content: space-between;
+}
+
+.more__plus-friend header {
+  margin-bottom: 30px;
 }
 
 .more__options {
@@ -69,4 +77,27 @@
 .more__option .more__option-title {
   margin-top: 10px;
   font-size: 12px;
+}
+
+.more__plus-friends .plus__learn-more {
+  color: #b4b4b4;
+}
+
+.plus-friends__items {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.plus-friends__items .plus-friends__item {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.plus-friends__item i {
+  margin-right: 15px;
+}
+
+.plus-friends__item .plus-friends__item-title {
+  font-size: 13px;
 }
